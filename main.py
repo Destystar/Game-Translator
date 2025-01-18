@@ -49,7 +49,7 @@ def process_frame(frame):
 def main():
     # Initialize Pygame
     pygame.init()
-    width, height = 800, 600
+    width, height = 1920, 1080
     game_window = pygame.display.set_mode((width, height))
     pygame.display.set_caption('Game Text Translator')
     clock = pygame.time.Clock()
